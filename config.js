@@ -4,7 +4,7 @@ var CONFIG = {
 
     // voice language
     voiceRecognitionLanguage: 'en-US',
-    voiceSpeakingLanguage: 'US English Male',
+    voiceSpeakingLanguage: 'US English Female',
     
     // uptime
     upTime: ['Yes I\'m alive since {0}', 'I\'m not breathing, but alive since {0}'],

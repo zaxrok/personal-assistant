@@ -51,7 +51,7 @@ app.on('ready', function() {
 
   // and load the index.html of the app.
   mainWindow.loadUrl('file://' + __dirname + '/index.html');
-
+  mainWindow.openDevTools();
   // Open the DevTools if run with "npm start dev"
   if(process.argv[2] == "dev"){  
     mainWindow.webContents.openDevTools();
